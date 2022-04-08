@@ -1,0 +1,147 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  font-family: 'Segoe UI'
+}
+
+nav {
+	border-bottom: 2px solid orange;
+	margin-bottom: 15px;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+	font-family: 'Segoe UI'
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.btn{
+	margin: 1;
+	margin: 0.5em;
+	border: none;
+	border-radius: 30px;
+	height: 30px;
+	background: #ffffaf;
+	cursor: pointer;
+	width:100px;
+	height:50px;
+}
+#buttons{
+	text-align: center;
+}
+#submit{
+	margin: 1;
+	margin: 0.5em;
+	border: none;
+	border-radius: 30px;
+	height: 30px;
+	background: #F6F6EB;
+	cursor: pointer;
+}
+#input{
+	border: none;
+
+    border-radius: 20px;
+    width: calc(100% - 100px);
+    outline: none;
+    background: #F6F6EB;
+    color: black;
+    padding: 0.8em 1em;
+    font-size: 100%;
+}
+
+.checkbox{
+  margin: 0.5em;
+  border: none;
+  border-radius: 30px;
+  background: #F6F6EB;
+  cursor: pointer;
+  display: inline-flex; 
+  align-items: flex-start;
+}
+
+#contact{
+	font-size: 14px;
+	font-weight:bold;
+}
+#submit{
+	font-size: 14px;
+	font-weight:bold;
+}
+
+/* #headshot{
+	border-style: solid;
+	border-radius: 50%;
+	padding:0;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.about{
+	margin: 15px;
+} */
+
+.container {
+	border: 3px solid blue;
+	padding: 20px 150px 40px 100px;
+}
+.container__image{
+	margin: 40px 40px 40px 0px;
+	float: left; 
+	padding: 0;
+	border-radius: 50%; 
+	border-style: solid;
+}
+.container__about{
+	display: inline;
+}
+
+.songs{
+	width:auto;
+	height: auto;
+}
+#favsong{
+	text-align: center;
+}
+#duck{
+	text-align: center;
+}
+
+
+.skills__container{
+    row-gap: 2rem;
+}
+
+.skills__name{
+	color:white;
+    display: inline-block;
+    padding: .25rem .5rem;
+    background-color: black;
+    border-radius: .25rem;
+}
